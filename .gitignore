@@ -1,3 +1,43 @@
+# 목차 #
+## 1. my update  #
+## 2. 아마 깃허브_py버전 #
+
+# 1. my update  #
+# 1.1 공통 : 보통 내가 ignore하는 거
+# - 파일 형식
+**/*.docx
+**/*.hwp
+
+**/*.mp3
+**/*.mp4
+
+**/*.jpg
+**/*.pdf
+**/*.png
+**/*.zip
+
+# - 파이참 생성 폴더들
+**.idea/
+
+
+# 1.2 이 레포지토리 살펴보고 ignore
+회사_skt/
+
+
+# - 사용한 것에 대한 설명 조금 [ 2403Chatgpt4 ]
+#   + **/*.mp3
+# 	 레포지토리의 모든 수준에서 .mp3 파일을 찾아 무시합니다. 여기서 **는 레포지토리의 모든 디렉토리를 포함하고, *.mp3는 .mp3로 끝나는 모든 파일을 매치합니다.
+
+#   + ** /
+# 	모든 폴더 <-> */.idea/ 패턴은 "현재 디렉토리 바로 아래의 모든 디렉토리에서 .idea 폴더를 무시
+#   + 폴더명/
+# 	( 해당 폴더에 있는 모든 파일 )
+#   + * 
+#	폴더무관하지 않고 현재 폴더 위치에서만임 / 글자 단위임 / 경로 앞에 붙는 *는 와일드카드로 사용되어 해당 패턴과 일치하는 모든 항목을 의미. 
+
+
+#----------------------------------------------
+# 2. 아마 깃허브_py버전 #
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -158,3 +198,4 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
