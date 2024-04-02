@@ -160,5 +160,5 @@ B. 기록 플랫폼
 ### B.3 적용안
 - (1) 모든 곳에 마크다운으로 작성 & 여러 플랫폼에 올리기
 
-## Reference  
-[1] Upstage AI lab 3기_학습 블로그 가이드
+## Reference   
+[1] Upstage AI lab 3기_학습 블로그 가이드 : https://github.com/journeythrunrun/common_private/blob/main/README.md _ [A]
