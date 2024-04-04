@@ -7,8 +7,11 @@ Ch 1. 깃허브 파일
 4. 레포지토리 분류 및 순서         
 5. 깃허브 코드 검색 인덱싱
     
-A. 레포지토리 라이센스   
-B. 기록 플랫폼
+A. 레포지토리 라이센스     
+B. 기록 플랫폼  
+Z. Self Feedback    
+ 
+References
 
 # Ch 1. 깃허브 파일
 ## 0. 체크 및 주의사항
@@ -160,5 +163,10 @@ B. 기록 플랫폼
 ### B.3 적용안
 - (1) 모든 곳에 마크다운으로 작성 & 여러 플랫폼에 올리기
 
-## Reference   
+
+
+## Z. Self Feedback  
+>> Feedback의 주제는 특정돼있지 않으며 주로 Daily Feedback에 가까움
+
+## References
 [1] Upstage AI lab 3기_학습 블로그 가이드 : https://github.com/journeythrunrun/common_private/blob/main/README.md _ [A]
