@@ -1,32 +1,37 @@
-# README.md
+# README.md  
 
 # 목차
 Ch 1. 깃허브 파일
-0. 체크 및 주의사항
-1. 파일 정리 및 관리
-2. 마크다운 활용 # 다른 곳 필기 내용 옮겨오기
-3. 자주 쓰는 이모지    
-4. 레포지토리 분류 및 순서         
-5. 깃허브 코드 검색 인덱싱
-    
-A. 레포지토리 라이센스     
-B. 기록 플랫폼  
-Z. Self Feedback    
+0 체크 및 주의사항
+1 파일 정리 및 관리
+2 마크다운  
+  2.1 마크다운 적용  
+  2.2 마크다운 실사용  
+  2.3 마크다운 기본 문법  
+  2.4 자주 쓰는 이모지    
+3 레포지토리 분류 및 순서         
+4 깃허브 코드 검색 인덱싱
+
+
+A 레포지토리 라이센스     
+B 기록 플랫폼  
+Z Self Feedback    
  
 References
 
 -----
 
 # Ch 1. 깃허브 파일
-## 0. 체크 및 주의사항
+## 0 체크 및 주의사항
   - 커밋메시지 컨벤션(깃 시작 및 초기여도 기왕이면 따르려하기)
 
-## 1. 파일 정리 및 관리    
+## 1 파일 정리 및 관리    
   - 업데이트 시점 의미 있는 경우 : 파일 위에 날짜나 버전 적어두기
     
-## 2. 마크다운 활용 # 다른 곳 필기 내용 옮겨오기   
+## 2 마크다운
+### 2.1 마크다운 적용  
   - **##1. & ###1.1 & (공백 2개_for txt)-+-**  
-    ~<-> m) 번호항목 : ( **띄어쓰기 4개 베이스** / 탈출 : (빈줄) 후의 줄앞이 띄어쓰기 2개 이하 )~
+    ~<-> m) 번호항목만 : ( **띄어쓰기 4개 베이스 or 번호 항목 뒤에 띄어쓰기** / 탈출 : (빈줄) 후의 줄앞이 띄어쓰기 2개 이하 )~
     
   - 항목 : 두번 째 항목이니까 '+'사용 / ** 탈출 : (빈줄)**.  
 (빈 줄 없으면 줄 시작에 띄어쓰기가 몇 개가 있던 결과는 위 항목 내의 위치임)
@@ -39,7 +44,8 @@ References
         > ~굳이, 궁금하다면 읽을 내용~   
   
         ~읽을, 어느정도 중요한 내용~   
-
+  - ~입력하는 내용 종류에 따라 더 맞는 폼이 다를 수 있어서 + 규칙은 좋게 바꿔나갈 거라, 모든 글에 동일하게 적용돼있지 않음~
+    
   - 항상  
     + ( **엔터 전 띄어쓰기 두 번** : 복붙 _ 앞뒤 항목 아닌 걸로 가도 괜찮기 위하여)
     + 줄의 시작 부분의 공백[띄어쓰기] : 추가 4개(코드블록), 추가 2개&항목 기호(항목 생성)를 제외하고는 다 무시
@@ -48,11 +54,33 @@ References
     + -항목 전줄, >뒤줄(얘는 해제하려면 빈 줄 입력도 해야함) 줄간격 ㄱㅊ해짐  
     + ~~\~\~(공백X)글중단선\~\~~~ / _\_기울임\__
     + \ : 기호에 대한 기능 해제
+  
+### 2.2 마크다운 실사용  
+- 사용법 (한국어) : https://gist.github.com/ihoneymon/652be052a0727ad59601  
+- AI 분야 사람 예시  
+  + https://github.com/skaurl
+- 깃허브 포트폴리오, 깃허브 다양한 틀   
+  > https://cucus.notion.site/Github-43b0293b3595488595a47a45d8741f25  
+  + 참고할 만한    
+    > https://github.com/changh95  
+- 깃허브 공식
+  + 퀵시작 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
+  + 시작 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github
+  ![image](https://github.com/journeythrunrun/00-common/assets/164328543/a8fdb462-edb4-4cd9-8e95-0927f8a01cc0)
+  
+  ```  
+  You can format text and include emoji, images, and GIFs in your profile README by using GitHub Flavored Markd own. For more information, see "Getting started with writing and formatting on GitHub." For a hands-on guide to customizing your profile README, see "Quickstart for writing on GitHub."
 
-  - 마크다운 실사용  
-    + (한국어) https://gist.github.com/ihoneymon/652be052a0727ad59601  
-  - ~입력하는 내용 종류에 따라 더 맞는 폼이 다를 수 있어서 + 규칙은 좋게 바꿔나갈 거라, 모든 글에 동일하게 적용돼있지 않음~  
+  # ex)
+  An "About me" section that describes your work and interests Contributions you're proud of, and context about those contributions Guidance for getting help in communities where you're involved
+  ```
 
+  > https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme  
+  > https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes  
+
+### 2.3 마크다운 기본 문법
+  - 사진
+    
   - '#, ## 1.' : 자동 목차 선택도 가능  
   - 코드 블럭   
     + M1. 억음  부호  
@@ -82,9 +110,9 @@ References
   
     [googlelink]: https://google.com "Go google"
   
-  - 이미지
-    ![Alt text](/path/to/img.jpg)
-    https://gist.github.com/ihoneymon/652be052a0727ad59601
+  - 이미지[사진]
+    + New issue에서 링크 가져오기 [https://velog.io/@www_1216/github-issue%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80%ED%95%98%EA%B8%B0]
+    + ![Alt text](/path/to/img.jpg) [https://gist.github.com/ihoneymon/652be052a0727ad59601]
 
   - Pass
     + 일반텍스트 끝나고 (빈줄) 만들기      
@@ -93,7 +121,7 @@ References
 -------
 
     
-## 3. 자주 쓰는 이모지  
+### 2.4 자주 쓰는 이모지  
   - 전체 : https://gist.github.com/rxaviers/7360908
   - ✴️
     ```
@@ -105,7 +133,7 @@ References
     :a:  
     ```
     
-## 4. 레포지토리 분류 및 순서     
+## 3 레포지토리 분류 및 순서     
   - 현재 : 초기엔 그냥 간단 분류법 진행. 최적안 선택 및 비교 분석 안했음  -> 이름 변경할 수도 있음  
     + 이유 1. 초기엔 레포지토리 이름 변경의 단점 발휘가 안되기 때문임 : 다른 사용자와의 상호작용 및 외부 활용 없음, 만든 양도 적음   
     + 이유 2. 내가 어떤 거를 할지 모르니 어떤 구조가 최적일지 한계가 있음 )
@@ -126,12 +154,15 @@ References
     m4... 챕터라는 단어 의미 표현 : 영어_챕터_ch,chap  
       <-> 이거 쓰면 못 쓰는 방법 : 알파벳 소문자
       
-## 5. 깃허브 코드 검색 인덱싱
-  코드 검색의 경우 기본 분기만 인덱싱됩니다. * 5MB 미만인 파일만 검색할 수 있습니다.
+## 4 깃허브 코드 검색 인덱싱
+  - 블로그에 관련 내용 더 있음  
+  - 코드 검색의 경우 기본 분기만 인덱싱됩니다. * 5MB 미만인 파일만 검색할 수 있습니다.
   각 파일의 처음 500KB만 검색할 수 있습니다.
-    
 
-## A. 레포지토리 라이센스
+
+
+-----
+## A 레포지토리 라이센스
   - [1] ChatGPT4 질문 핵심 내용 : 레포지토리 라이센스는 보통 뭐로 하니? 뭐가 좋니? 회사 것 아닌 개인 것일 때 기왕이면 누가 가져다 쓸거면 출처 정도는 해줬으면 좋겠음
     > 개인 프로젝트에 적합한 라이센스를 선택할 때는 프로젝트를 어떻게 공유하고 싶은지에 따라 다릅니다. 출처를 명시하도록 요구하면서도 타인이 프로젝트를 자유롭게 사용, 수정, 배포할 수 있게 하고 싶다면, 오픈 소스 라이센스 중 하나를 고려해 볼 수 있습니다. 가장 널리 사용되는 라이센스 중 몇 가지를 소개하겠습니다.
     + MIT 라이센스: 이 라이센스는 매우 유연하며, 사용, 복사, 수정, 배포를 포함하여 거의 제한 없이 프로젝트를 사용할 수 있도록 허용합니다. 단, 라이센스 복사본과 저작권 고지를 소프트웨어의 모든 복사본이나 중요한 부분에 포함시켜야 합니다. 이는 출처 표시 요구를 만족시키며, 매우 간단하고 이해하기 쉬워 개인 프로젝트에 인기가 높습니다.
@@ -147,7 +178,7 @@ References
 
 
 
-## B. 기록 플랫폼
+## B 기록 플랫폼
 ### B.1 올릴 만한 대상 
 - 기술 내용 / 행사 / 일상 / 독서
 ### B.2 플랫폼 선택 시 고려 사항
@@ -169,7 +200,7 @@ References
 
 
 
-## Z. Self Feedback  
+## Z Self Feedback  
 >> Feedback의 주제는 특정돼있지 않으며 주로 Daily Feedback에 가까움
 
 ## References
