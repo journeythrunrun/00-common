@@ -113,8 +113,9 @@ References
     [googlelink]: https://google.com "Go google"
   
   - 이미지[사진]
-    + New issue에서 링크 가져오기 [https://velog.io/@www_1216/github-issue%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80%ED%95%98%EA%B8%B0]
-    + ![Alt text](/path/to/img.jpg) [https://gist.github.com/ihoneymon/652be052a0727ad59601]
+    + (1) New issue에 사진 붙여넣어서 이미지 주소 획득
+      > [https://velog.io/@www_1216/github-issue%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80%ED%95%98%EA%B8%B0]
+    + (2) ![Alt text](/path/to/img.jpg) [https://gist.github.com/ihoneymon/652be052a0727ad59601]
 
   - Pass
     + 일반텍스트 끝나고 (빈줄) 만들기      
